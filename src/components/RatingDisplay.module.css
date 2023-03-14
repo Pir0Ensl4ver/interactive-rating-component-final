@@ -1,0 +1,159 @@
+.form {
+  height: 416px;
+  width: 412px;
+  border-radius: 0px;
+  margin: 5rem 5rem 5rem 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(216, 12%, 8%);
+  border-radius: 30px;
+}
+
+.oval_icon_container {
+  width: 48px;
+  height: 48px;
+  margin-left: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  background: hsl(213, 19%, 18%);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form_div {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.form_question_h1 {
+  text-align: left;
+  color: hsl(0, 0%, 100%);
+  margin-top: 1rem;
+  margin-right: 3rem;
+  margin-left: 3rem;
+  font-weight: bold;
+  font-family: "Overpass", sans-serif;
+}
+
+.form_ty_h1 {
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  margin-top: 1rem;
+  margin-right: 3rem;
+  margin-left: 3rem;
+  font-weight: bold;
+  font-family: "Overpass", sans-serif;
+}
+
+.form_question_paragraph {
+  color: hsl(217, 12%, 63%);
+  margin-right: 3rem;
+  margin-left: 3rem;
+  text-align: left;
+  font-size: 15px;
+  font-family: "Overpass", sans-serif;
+}
+
+.rating_button_container {
+  display: flex;
+  margin-right: 3rem;
+  margin-left: 3rem;
+  justify-content: space-between;
+}
+
+.rating_button {
+  width: 48px;
+  height: 48px;
+  margin: 0;
+  color: hsl(217, 12%, 63%);
+  background: hsl(213, 19%, 18%);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  border-width: 0px;
+  font-family: "Overpass", sans-serif;
+}
+
+.rating_button:hover,
+.rating_button:active {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+
+.rating_button:focus {
+  background-color: hsl(217, 12%, 63%);
+  color: white;
+}
+
+.submit_button {
+  margin-right: 3rem;
+  margin-left: 3rem;
+  margin-top: 2rem;
+  width: 314px;
+  height: 45px;
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 30px;
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+  font: 15px;
+  border-width: 0px;
+  left: 7.77%;
+  right: 9.47%;
+  top: 81.49%;
+  bottom: 7.69%;
+}
+
+.submit_button:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
+
+.submit_button:disabled,
+.submit_button:focus:disabled,
+.submit_button:hover:disabled,
+.submit_button:active:disabled {
+  background: hsl(213, 19%, 18%);
+  border-color: hsl(213, 19%, 18%);
+  color: hsl(217, 12%, 63%);
+  cursor: not-allowed;
+}
+
+/* AFTER onSubmit EVENT   */
+
+.thank_you_image {
+  margin: 30px 129px 30px 121px;
+}
+
+.rate_info {
+  margin-left: 95px;
+  margin-right: 100px;
+  margin-bottom: 36px;
+  width: 220px;
+  height: 35px;
+  background: rgb(37, 45, 55);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(251, 116, 19);
+  font-family: "Overpass", sans-serif;
+  font-weight: 400;
+}
+
+.thank_you_info {
+  margin-left: 32px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: rgb(149, 158, 172);
+  font-family: "Overpass", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
